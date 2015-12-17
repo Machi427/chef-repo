@@ -1,5 +1,7 @@
 DEPENDENCIES
   rbenv-install-rubies
+  testweb
+    path: cookbooks/testweb
   zsh
 
 GRAPH
@@ -20,6 +22,7 @@ GRAPH
     ohai (>= 1.1)
   rbenv-install-rubies (0.2.1)
     rbenv (>= 0.0.0)
+  testweb (0.1.0)
   windows (1.38.4)
     chef_handler (>= 0.0.0)
   yum (3.8.2)
