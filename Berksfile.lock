@@ -1,0 +1,28 @@
+DEPENDENCIES
+  rbenv-install-rubies
+  zsh
+
+GRAPH
+  apt (2.9.2)
+  build-essential (2.2.4)
+  chef_handler (1.2.0)
+  dmg (2.3.0)
+  git (4.3.5)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  ohai (2.0.4)
+  rbenv (1.7.1)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+    ohai (>= 1.1)
+  rbenv-install-rubies (0.2.1)
+    rbenv (>= 0.0.0)
+  windows (1.38.4)
+    chef_handler (>= 0.0.0)
+  yum (3.8.2)
+  yum-epel (0.6.5)
+    yum (~> 3.2)
+  zsh (1.0.3)
