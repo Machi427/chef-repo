@@ -283,6 +283,14 @@
       "lib_packages": [
 
       ]
+    },
+    "web": {
+      "docroot": "/var/www/html"
+    },
+    "pkg": {
+      "update": "yum update -y",
+      "httpd": "httpd",
+      "php": "php"
     }
   },
   "automatic": {
@@ -290,13 +298,13 @@
       "by_device": {
         "/dev/xvda1": {
           "kb_size": "8123812",
-          "kb_used": "1428412",
-          "kb_available": "6595152",
-          "percent_used": "18%",
+          "kb_used": "1920936",
+          "kb_available": "6102628",
+          "percent_used": "24%",
           "total_inodes": "524288",
-          "inodes_used": "53240",
-          "inodes_available": "471048",
-          "inodes_percent_used": "11%",
+          "inodes_used": "93343",
+          "inodes_available": "430945",
+          "inodes_percent_used": "18%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -398,13 +406,13 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "8123812",
-          "kb_used": "1428412",
-          "kb_available": "6595152",
-          "percent_used": "18%",
+          "kb_used": "1920936",
+          "kb_available": "6102628",
+          "percent_used": "24%",
           "total_inodes": "524288",
-          "inodes_used": "53240",
-          "inodes_available": "471048",
-          "inodes_percent_used": "11%",
+          "inodes_used": "93343",
+          "inodes_available": "430945",
+          "inodes_percent_used": "18%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -504,14 +512,14 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "8123812",
-          "kb_used": "1428412",
-          "kb_available": "6595152",
-          "percent_used": "18%",
+          "kb_used": "1920936",
+          "kb_available": "6102628",
+          "percent_used": "24%",
           "mount": "/",
           "total_inodes": "524288",
-          "inodes_used": "53240",
-          "inodes_available": "471048",
-          "inodes_percent_used": "11%",
+          "inodes_used": "93343",
+          "inodes_available": "430945",
+          "inodes_percent_used": "18%",
           "fs_type": "ext4",
           "mount_options": [
             "rw",
@@ -608,14 +616,14 @@
     "filesystem": {
       "/dev/xvda1": {
         "kb_size": "8123812",
-        "kb_used": "1428412",
-        "kb_available": "6595152",
-        "percent_used": "18%",
+        "kb_used": "1920936",
+        "kb_available": "6102628",
+        "percent_used": "24%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "53240",
-        "inodes_available": "471048",
-        "inodes_percent_used": "11%",
+        "inodes_used": "93343",
+        "inodes_available": "430945",
+        "inodes_percent_used": "18%",
         "fs_type": "ext4",
         "mount_options": [
           "rw",
@@ -835,15 +843,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "161869",
-              "packets": "166",
+              "bytes": "140",
+              "packets": "2",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "161869",
-              "packets": "166",
+              "bytes": "140",
+              "packets": "2",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -853,16 +861,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "214134",
-              "packets": "2055",
+              "bytes": "81080",
+              "packets": "694",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "3495953",
-              "packets": "3214",
+              "bytes": "79333",
+              "packets": "751",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -876,14 +884,14 @@
     "ip6address": "fe80::833:dfff:feae:bb07",
     "kernel": {
       "name": "Linux",
-      "release": "4.1.10-17.31.amzn1.x86_64",
-      "version": "#1 SMP Sat Oct 24 01:31:37 UTC 2015",
+      "release": "4.1.13-19.30.amzn1.x86_64",
+      "version": "#1 SMP Fri Dec 11 03:42:10 UTC 2015",
       "machine": "x86_64",
       "os": "GNU/Linux",
       "modules": {
         "ipv6": {
-          "size": "371645",
-          "refcount": "54"
+          "size": "371773",
+          "refcount": "64"
         },
         "binfmt_misc": {
           "size": "7136",
@@ -901,12 +909,12 @@
           "size": "7894",
           "refcount": "0"
         },
-        "i2c_piix4": {
-          "size": "9478",
+        "psmouse": {
+          "size": "106177",
           "refcount": "0"
         },
-        "psmouse": {
-          "size": "104421",
+        "i2c_piix4": {
+          "size": "9478",
           "refcount": "0"
         },
         "i2c_core": {
@@ -964,7 +972,7 @@
       }
     },
     "os": "linux",
-    "os_version": "4.1.10-17.31.amzn1.x86_64",
+    "os_version": "4.1.13-19.30.amzn1.x86_64",
     "platform": "amazon",
     "platform_version": "2015.09",
     "platform_family": "rhel",
@@ -975,26 +983,26 @@
         "free": "0kB"
       },
       "total": "1019452kB",
-      "free": "721356kB",
-      "buffers": "16300kB",
-      "cached": "136616kB",
-      "active": "224588kB",
-      "inactive": "32428kB",
-      "dirty": "48kB",
+      "free": "760012kB",
+      "buffers": "13704kB",
+      "cached": "93432kB",
+      "active": "171464kB",
+      "inactive": "44648kB",
+      "dirty": "96kB",
       "writeback": "0kB",
-      "anon_pages": "104116kB",
-      "mapped": "16584kB",
-      "slab": "28524kB",
-      "slab_reclaimable": "19224kB",
-      "slab_unreclaim": "9300kB",
-      "page_tables": "2940kB",
+      "anon_pages": "108916kB",
+      "mapped": "23296kB",
+      "slab": "26424kB",
+      "slab_reclaimable": "16348kB",
+      "slab_unreclaim": "10076kB",
+      "page_tables": "7092kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "509724kB",
-      "committed_as": "205316kB",
+      "committed_as": "258532kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "2456kB",
-      "vmalloc_chunk": "34359731275kB"
+      "vmalloc_chunk": "34359731459kB"
     },
     "cpu": {
       "0": {
@@ -1003,7 +1011,7 @@
         "model": "63",
         "model_name": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz",
         "stepping": "2",
-        "mhz": "2394.528",
+        "mhz": "2400.070",
         "cache_size": "30720 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1089,10 +1097,10 @@
         "rotational": "0"
       }
     },
-    "uptime_seconds": 786,
-    "uptime": "13 minutes 06 seconds",
-    "idletime_seconds": 771,
-    "idletime": "12 minutes 51 seconds",
+    "uptime_seconds": 600,
+    "uptime": "10 minutes 00 seconds",
+    "idletime_seconds": 592,
+    "idletime": "9 minutes 52 seconds",
     "keys": {
       "ssh": {
         "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDjFi+g6T3qCG+7efTTqMuDo0w8fB40X3N44n0MbJf/uADWd9VMw4sqT89zv42RLaIR1g5VZQBLyvlEb2DnKq02anLKCgAXul6yHbdO5eGQdVU/7uspa+mvHvaz/fNQcOJRevAOLG9V8vldYA8XS39FAHP7osjDH5OXz/UT3LxTBiz1eSUsTrbb4XrAxZLnjXR+kKQZU60HTJ1qLiHIDHOOLxYRg312Lb8Wjj9KJvHx0SGN6EKvJj1GaOgi9h1YUhn9Bu0jbknJKYrJVpPngYQpSKbB/TXJxdFxKKfcGTT8zj32U7zBBUOOQKiAftR1oqF9LeEQPJPE8eTiY0lXkbBb",
@@ -1109,13 +1117,22 @@
       },
       "python": {
         "version": "2.7.10",
-        "builddate": "Aug 11 2015, 23:39:10"
+        "builddate": "Dec 8 2015, 18:25:23"
       },
       "c": {
+        "gcc": {
+          "version": "4.8.3",
+          "description": "gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) "
+        },
         "glibc": {
           "version": "2.17",
           "description": "GNU C Library (GNU libc) stable release version 2.17, by Roland McGrath et al."
         }
+      },
+      "php": {
+        "version": "5.3.29",
+        "builddate": "May 12 2015 22:42:19",
+        "zend_engine_version": "2.3.0"
       },
       "java": {
         "version": "1.7.0_91",
@@ -1146,7 +1163,7 @@
         "gem_bin": "/usr/bin/gem2.0"
       }
     },
-    "ohai_time": 1450332374.302128,
+    "ohai_time": 1450659201.9781156,
     "chef_packages": {
       "ohai": {
         "version": "8.7.0",
@@ -1336,6 +1353,20 @@
           "uid": 500,
           "shell": "/bin/bash",
           "gecos": "EC2 Default User"
+        },
+        "rbenv": {
+          "dir": "/home/rbenv",
+          "gid": 501,
+          "uid": 501,
+          "shell": "/bin/bash",
+          "gecos": ""
+        },
+        "apache": {
+          "dir": "/var/www",
+          "gid": 48,
+          "uid": 48,
+          "shell": "/sbin/nologin",
+          "gecos": "Apache"
         }
       },
       "group": {
@@ -1594,6 +1625,18 @@
           "members": [
 
           ]
+        },
+        "rbenv": {
+          "gid": 501,
+          "members": [
+
+          ]
+        },
+        "apache": {
+          "gid": 48,
+          "members": [
+
+          ]
         }
       }
     },
@@ -1612,6 +1655,8 @@
       "zsh::default",
       "rbenv-install-rubies",
       "rbenv-install-rubies::default",
+      "testweb",
+      "testweb::default",
       "rbenv::default",
       "build-essential::default",
       "build-essential::_rhel",
@@ -1621,7 +1666,8 @@
     ],
     "expanded_run_list": [
       "zsh::default",
-      "rbenv-install-rubies::default"
+      "rbenv-install-rubies::default",
+      "testweb::default"
     ],
     "roles": [
       "ruby"
@@ -1632,6 +1678,9 @@
       },
       "rbenv-install-rubies": {
         "version": "0.2.1"
+      },
+      "testweb": {
+        "version": "0.1.0"
       },
       "rbenv": {
         "version": "1.7.1"
@@ -1667,6 +1716,7 @@
   },
   "run_list": [
     "recipe[zsh]",
-    "role[ruby]"
+    "role[ruby]",
+    "recipe[testweb]"
   ]
 }
